@@ -14,9 +14,25 @@
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: white;
+    color: White;
+    font-family: cursive;
+    background: black;
   }
-  
+
+  h2{
+    font-family: cursive;
+  }
+
+  h4{
+    font-family: cursive;
+  } 
+
+.group{
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(95, 94, 94);
+}
+
   /* Create two unequal columns that floats next to each other */
   /* Right column */
   .rightcolumn {
@@ -31,9 +47,8 @@
     padding-left: 20px;
   }
   
-  /* Fake image */
-  .fakeimg {
-    background-color: #aaa;
+  /* mini image */
+  .miniImg {
     width: 100%;
     padding: 20px;
   }
@@ -41,10 +56,18 @@
   /* Add a card effect for articles */
   .card {
      background-color: white;
-     padding: 20px;
+     padding: 5%;
      margin-top: 20px;
   }
   
+    .card-body {
+      padding: 0 !important;
+   }
+   
+  .card-width {
+    width: 90%;
+  }
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
